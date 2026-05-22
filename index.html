@@ -1,93 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MGRUS Logistic SRL</title>
 
   <style>
     body {
       margin: 0;
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       background: #0B1F3B;
       color: white;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(11,31,59,0.85), rgba(11,31,59,0.85)),
+      url('https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=1600&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+      padding: 80px 20px;
       text-align: center;
     }
 
-    header {
-      padding: 60px;
-      background: #122B4A;
+    .logo {
+      width: 180px;
+      margin-bottom: 20px;
     }
 
     h1 {
-      font-size: 42px;
-      margin: 0;
+      font-size: 52px;
+      margin-bottom: 10px;
     }
 
-    p {
-      font-size: 18px;
+    .subtitle {
+      font-size: 22px;
+      color: #d4d4d4;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 35px;
+      background: #D4AF37;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      margin: 10px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
     }
 
     section {
-      padding: 40px;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
     }
 
     .box {
-      background: #1B3A5A;
-      margin: 20px auto;
-      padding: 20px;
-      width: 70%;
-      border-radius: 12px;
+      background: #122B4A;
+      padding: 30px;
+      border-radius: 16px;
+      margin: 20px;
     }
 
-    img {
-      margin-top: 30px;
+    h2 {
+      color: #D4AF37;
+    }
+
+    footer {
+      background: #081626;
+      padding: 30px;
+      text-align: center;
+      color: #999;
     }
   </style>
 </head>
 
 <body>
 
-  <img src="logo.jpg" alt="MGRUS LOGISTIC" height="120">
+  <div class="hero">
 
-  <header>
+    <img src="logo.jpg" alt="MGRUS LOGISTIC" class="logo">
+
     <h1>MGRUS Logistic SRL</h1>
-    <p>European Freight Forwarding & Transport Coordination</p>
-  </header>
 
-<section>
-
-  <div class="box">
-    <h2>Services</h2>
-    <p>FTL • LTL • International Transport • Subcontracting • Express Deliveries</p>
-  </div>
-
-  <div class="box">
-    <h2>Coverage</h2>
-    <p>Romania • Germany • Italy • France • Netherlands • EU Wide</p>
-  </div>
-
-  <div class="box">
-    <h2>About Us</h2>
-    <p>
-      MGRUS Logistic SRL provides reliable European freight forwarding,
-      transport coordination and logistics solutions across the EU.
-      We focus on fast communication, dependable partners and efficient delivery management.
+    <p class="subtitle">
+      Reliable European Transport & Logistics Solutions
     </p>
-  </div>
 
-  <div class="box">
-    <h2>Contact</h2>
-    <p>office@mgrus.ro | 0734848117</p>
-
-    <a href="https://wa.me/40734848117" target="_blank">
-      <button style="padding:15px 30px; font-size:18px; border:none; border-radius:10px; background:#25D366; color:white; cursor:pointer;">
-        WhatsApp
-      </button>
+    <a class="btn" href="https://wa.me/40734848117" target="_blank">
+      WhatsApp
     </a>
+
+    <a class="btn" href="mailto:office@mgrus.ro">
+      Email Us
+    </a>
+
   </div>
+
+  <section>
+
+    <div class="container">
+
+      <div class="box">
+        <h2>Services</h2>
+        <p>
+          FTL • LTL • International Transport • Freight Forwarding •
+          Express Deliveries • Subcontracting
+        </p>
+      </div>
+
+      <div class="box">
+        <h2>Coverage</h2>
+        <p>
+          Romania • Germany • Italy • France • Netherlands • EU Wide
+        </p>
+      </div>
+
+      <div class="box">
+        <h2>About Us</h2>
+        <p>
+          MGRUS Logistic SRL provides reliable freight forwarding and
+          transport coordination across Europe with a focus on speed,
+          communication and dependable logistics partnerships.
+        </p>
+      </div>
+
+      <div class="box">
+        <h2>Contact</h2>
+        <p>
+          office@mgrus.ro<br>
+          +40 734 848 117
+        </p>
+      </div>
+
+    </div>
 
   </section>
+
+  <footer>
+    © 2025 MGRUS Logistic SRL — All Rights Reserved
+  </footer>
 
 </body>
 
