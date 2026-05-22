@@ -66,11 +66,19 @@
     }
 
     .box {
-      background: #122B4A;
-      padding: 30px;
-      border-radius: 16px;
-      margin: 20px;
-    }
+  background: #122B4A;
+  padding: 30px;
+  border-radius: 16px;
+  margin: 20px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+
+.box:hover {
+  transform: translateY(-8px);
+  border: 1px solid #D4AF37;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
 
     h2 {
       color: #D4AF37;
